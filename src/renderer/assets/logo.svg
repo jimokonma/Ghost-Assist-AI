@@ -1,0 +1,52 @@
+<svg width="100%" viewBox="195 52 290 365" role="img" xmlns="http://www.w3.org/2000/svg" aria-label="GhostAssist AI">
+  <!-- outer glow rings -->
+  <circle cx="340" cy="170" r="118" fill="none" stroke="rgba(255,215,0,0.133)" stroke-width="12"/>
+  <circle cx="340" cy="170" r="100" fill="none" stroke="rgba(255,215,0,0.067)" stroke-width="20"/>
+
+  <!-- shield shape -->
+  <path d="M340 62 L420 92 L420 172 Q420 222 340 252 Q260 222 260 172 L260 92 Z" fill="#0f172a"/>
+  <path d="M340 62 L420 92 L420 172 Q420 222 340 252 Q260 222 260 172 L260 92 Z" fill="none" stroke="#FFD700" stroke-width="2.5"/>
+
+  <!-- scan lines inside shield -->
+  <line x1="268" y1="120" x2="412" y2="120" stroke="rgba(255,215,0,0.267)" stroke-width="1"/>
+  <line x1="268" y1="135" x2="412" y2="135" stroke="rgba(255,215,0,0.267)" stroke-width="1"/>
+  <line x1="268" y1="150" x2="412" y2="150" stroke="rgba(255,215,0,0.267)" stroke-width="1"/>
+  <line x1="268" y1="165" x2="412" y2="165" stroke="rgba(255,215,0,0.267)" stroke-width="1"/>
+  <line x1="268" y1="180" x2="412" y2="180" stroke="rgba(255,215,0,0.267)" stroke-width="1"/>
+  <line x1="268" y1="195" x2="412" y2="195" stroke="rgba(255,215,0,0.267)" stroke-width="1"/>
+
+  <!-- ghost body -->
+  <path d="M310 104 Q310 88 325 84 L355 84 Q370 88 370 104 L370 175 L362 168 L354 175 L346 168 L338 175 L330 168 L322 175 L314 168 L310 175 Z" fill="#1e293b"/>
+  <path d="M310 104 Q310 88 325 84 L355 84 Q370 88 370 104 L370 175 L362 168 L354 175 L346 168 L338 175 L330 168 L322 175 L314 168 L310 175 Z" fill="none" stroke="#FFD700" stroke-width="2"/>
+
+  <!-- ghost eyes -->
+  <ellipse cx="328" cy="122" rx="8" ry="9" fill="#FFD700"/>
+  <ellipse cx="352" cy="122" rx="8" ry="9" fill="#FFD700"/>
+  <ellipse cx="329" cy="123" rx="4" ry="5" fill="#0f172a"/>
+  <ellipse cx="353" cy="123" rx="4" ry="5" fill="#0f172a"/>
+  <!-- eye shine -->
+  <circle cx="331" cy="120" r="1.5" fill="#FFD700"/>
+  <circle cx="355" cy="120" r="1.5" fill="#FFD700"/>
+
+  <!-- corner accent dots -->
+  <circle cx="260" cy="92" r="3" fill="#FFD700"/>
+  <circle cx="420" cy="92" r="3" fill="#FFD700"/>
+  <circle cx="340" cy="252" r="3" fill="#FFD700"/>
+
+  <!-- divider line -->
+  <line x1="200" y1="282" x2="480" y2="282" stroke="rgba(255,215,0,0.267)" stroke-width="1"/>
+
+  <!-- wordmark -->
+  <text x="340" y="330" text-anchor="middle" font-family='"JetBrains Mono", monospace' font-size="42" font-weight="700">
+    <tspan fill="#FFD700">Ghost</tspan><tspan fill="#f1f5f9">Assist</tspan>
+  </text>
+
+  <!-- sub label -->
+  <text x="340" y="358" text-anchor="middle" font-family='"JetBrains Mono", monospace' font-size="13" fill="#94a3b8">AI</text>
+
+  <!-- divider line bottom -->
+  <line x1="280" y1="374" x2="400" y2="374" stroke="rgba(255,215,0,0.267)" stroke-width="1"/>
+
+  <!-- tagline -->
+  <text x="340" y="396" text-anchor="middle" font-family='"JetBrains Mono", monospace' font-size="11" fill="#475569">INVISIBLE BY DESIGN</text>
+</svg>

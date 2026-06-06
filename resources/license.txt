@@ -1,0 +1,52 @@
+GHOSTASSIST AI — END USER LICENSE AGREEMENT
+Copyright © 2025 Digital Okonma Technologies. All rights reserved.
+
+IMPORTANT: READ THIS AGREEMENT CAREFULLY BEFORE INSTALLING OR USING THIS SOFTWARE.
+
+By installing or using GhostAssist AI ("Software"), you agree to the terms of this
+End User License Agreement ("Agreement"). If you do not agree, do not install or use
+the Software.
+
+1. GRANT OF LICENSE
+   Digital Okonma Technologies grants you a personal, non-exclusive, non-transferable
+   licence to install and use one copy of the Software on a single Windows computer
+   owned or controlled by you, solely for your personal or internal business purposes.
+
+2. RESTRICTIONS
+   You may not: (a) copy, modify, or distribute the Software; (b) reverse-engineer,
+   decompile, or disassemble the Software; (c) rent, lease, or lend the Software;
+   (d) use the Software for any unlawful purpose; (e) remove any proprietary notices.
+
+3. API KEYS & DATA
+   The Software requires third-party API keys (Anthropic Claude, OpenAI Whisper) that
+   you obtain and are responsible for. Your API keys, conversation history, and
+   knowledge base are stored locally on your device and are never transmitted to
+   Digital Okonma Technologies.
+
+4. PRIVACY
+   GhostAssist AI processes audio and text locally and via third-party AI APIs. Audio
+   is only recorded when you actively trigger recording. No data is sent to Digital
+   Okonma Technologies at any time.
+
+5. DISCLAIMER OF WARRANTIES
+   THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. DIGITAL OKONMA
+   TECHNOLOGIES DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+   LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NON-INFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL DIGITAL OKONMA TECHNOLOGIES BE LIABLE FOR ANY INDIRECT,
+   INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN
+   CONNECTION WITH THE SOFTWARE, EVEN IF ADVISED OF SUCH DAMAGES.
+
+7. TERMINATION
+   This Agreement is effective until terminated. It terminates automatically if you
+   fail to comply with any term. Upon termination, you must destroy all copies of
+   the Software.
+
+8. GOVERNING LAW
+   This Agreement is governed by applicable laws of the jurisdiction in which the
+   Software is used, without regard to conflict-of-law principles.
+
+By installing GhostAssist AI you acknowledge that you have read, understood, and
+agree to be bound by the terms of this Agreement.
