@@ -1,8 +1,21 @@
-# GhostAssist AI
+<p align="center">
+  <img src="resources/logo-readme.svg" alt="GhostAssist AI" width="360" />
+</p>
 
-> Invisible real-time AI assistant for meetings, interviews, and live calls — powered by Claude and Whisper.
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="MIT License"></a>
+  <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-blue" alt="Platform">
+  <img src="https://img.shields.io/badge/electron-34-47848F?logo=electron&logoColor=white" alt="Electron">
+  <img src="https://img.shields.io/badge/open%20source-%E2%9D%A4-brightgreen" alt="Open Source">
+  <a href="https://github.com/jimokonma/Ghost-Assist-AI/issues"><img src="https://img.shields.io/badge/contributions-welcome-orange.svg" alt="Contributions Welcome"></a>
+</p>
 
-GhostAssist AI is a Windows desktop application built with Electron. It floats as a transparent overlay on your screen — visible only to you — and responds to spoken questions in under 3 seconds. The window is excluded from all screen capture at the OS level, making it completely invisible to Zoom, Google Meet, Microsoft Teams, and OBS.
+<h3 align="center">Invisible real-time AI assistant for meetings, interviews, and live calls</h3>
+<p align="center">Powered by Claude + Whisper &nbsp;·&nbsp; Free &amp; open source &nbsp;·&nbsp; Windows 10/11</p>
+
+---
+
+GhostAssist AI is a **free, open-source** Windows desktop application. It floats as a transparent overlay — visible only to you — and responds to spoken questions in under 3 seconds. The window is excluded from all screen capture at the OS level, making it completely invisible to Zoom, Google Meet, Microsoft Teams, and OBS.
 
 ---
 
@@ -27,7 +40,6 @@ GhostAssist AI is a Windows desktop application built with Electron. It floats a
 - npm v10+
 - [ANTHROPIC_API_KEY](https://console.anthropic.com) — for Claude AI responses
 - [OPENAI_API_KEY](https://platform.openai.com) — for Whisper audio transcription
-- C++ build tools (for native modules) — install via [windows-build-tools](https://github.com/felixrieseberg/windows-build-tools) or Visual Studio Build Tools
 
 ---
 
@@ -143,7 +155,7 @@ src/
 │   ├── transcription.js    OpenAI Whisper API
 │   ├── screenshot.js       Electron desktopCapturer
 │   ├── claude.js           Anthropic SDK streaming + mode prompts
-│   ├── database.js         better-sqlite3 CRUD
+│   ├── database.js         node-sqlite3-wasm CRUD
 │   └── eventbus.js         Central EventEmitter
 ├── preload/
 │   └── index.js            Context bridge (IPC API surface)
@@ -159,11 +171,11 @@ src/
 ```
 
 **Stack:**
-- Electron 31 + React 18 + Vite (electron-vite)
+- Electron 34 + React 18 + Vite (electron-vite)
 - Tailwind CSS
 - `@anthropic-ai/sdk` — Claude streaming
 - `openai` SDK — Whisper transcription
-- `node-sqlite3-wasm` — local SQLite storage (WASM, no native compilation needed)
+- `node-sqlite3-wasm` — local SQLite (WASM, no native compilation needed)
 - `uiohook-napi` — hold-to-record hotkey detection
 - `koffi` — `SetWindowDisplayAffinity` native call (pre-built, no compilation needed)
 
@@ -180,15 +192,17 @@ src/
 
 ## Contributing
 
+Contributions are welcome! GhostAssist AI is fully open source under the MIT license.
+
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/my-feature`
 3. Commit your changes: `git commit -m "add my feature"`
 4. Push and open a pull request
 
-Please open an issue first for significant changes.
+Please [open an issue](https://github.com/jimokonma/Ghost-Assist-AI/issues) first for significant changes or new features — it helps avoid duplicate work and keeps direction aligned.
 
 ---
 
 ## License
 
-MIT © [Digital Okonma Technologies](https://github.com/jimokonma)
+MIT © [Digital Okonma Technologies](https://github.com/jimokonma) — free to use, modify, and distribute.
